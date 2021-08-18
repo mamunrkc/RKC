@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+   font-family: 'Oswald', sans-serif; 
+   font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #0872b9;
+}
+.top_icon ul{
+    float: right;
+}
+.top_icon ul li{
+    float: left;
+    margin-top: 10px;
+}
+.welcome p{
+    color: #fff;
+    margin-top: 10px;
+}
+.top_icon ul li a{
+    padding: 0 12px;
+    color: #fff;
+    transition: all linear .3s;
+    
+}
+.top_icon ul li a:hover{
+    color: #000;
+    transition: all linear .3s;
+}
+
+/*menu part css start */
+.navbar-nav .nav-item .nav-link{
+    color: #353535;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link:hover{
+    color: #0872b9;
+}
+/*menu part css end*/
+/*banner part css start*/
+.banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.banner_overlay{
+    padding: 87px 0;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+.banner_con{
+    color: #fff;
+    text-align: right;
+}
+.banner_con h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner_con h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.banner_con p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.banner_con a{
+    padding: 12px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.banner_con a:hover{
+    background-color: #0872b9;
+    border: 1px solid #0872b9;
+    transition: all linear .3s;
+        
+}
+/*banner part css end*/
+/*abuot us heading css part start*/
+.about_heading h4{
+    text-align: center;
+    margin-top:60px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.about_heading h4:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 47px;
+    background-color: #0872b9;
+}
+/*abuot us heading css part end*/
